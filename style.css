@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7c90ff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  width: 100%;
+  max-width: 512px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.telegram-link {
+  text-align: center;
+  font-size: 125%;
+
+}
+.telegram-link a{
+  text-decoration:none;
+  color: greenyellow;
+  font-size: 180%;
+  transition: all 0.5s;
+}
+
+.telegram-link a:hover{
+  text-decoration:none;
+  color: white;
+  font-size: 200%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
